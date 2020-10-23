@@ -1,5 +1,5 @@
 import numpy as np
-from flask import Flask, request, jsonify, render_template, url_for
+from flask import Flask
 from keras.models import load_model
 
 model = load_model('./weights-improvement-01-0.68.hdf5')
